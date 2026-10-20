@@ -6,8 +6,8 @@ flake, and every non-obvious problem hit building the first one
 
 ## What this flake provides
 
-- `packages.x86_64-linux.reticulum-stack` — `rns`==1.1.8, `nomadnet`==0.9.8,
-  `lxmf`==0.9.4, packaged as a real Nix derivation via **`uv2nix`** (not
+- `packages.x86_64-linux.reticulum-stack` — `rns`==1.5.5, `nomadnet`==1.4.4,
+  `lxmf`==1.2.0, packaged as a real Nix derivation via **`uv2nix`** (not
   `poetry2nix` — see below for why), exposing `rnsd` and `nomadnet`
   executables.
 - `nixosModules.default` — a NixOS module (`module.nix`) wiring that package

@@ -180,18 +180,19 @@ wheels = [
 
 [[package]]
 name = "lxmf"
-version = "0.9.4"
+version = "1.2.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "rns" },
 ]
+sdist = { url = "https://files.pythonhosted.org/packages/15/e0/4e1efc0f20abd41a9ea2c01a5f1870b452f85c7cc710f74f45dd979d520b/lxmf-1.2.0.tar.gz", hash = "sha256:f14243283b90ad06356071d90394357640924201f9c992dcdfecbc23614fb309", size = 80711, upload-time = "2026-09-30T12:58:53.789Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/3b/b1/1f06fdfe6e6366781625802102b77180645fc9c04a358bc899ace7a07e31/lxmf-0.9.4-py3-none-any.whl", hash = "sha256:72debace801dec8b2c841ee3475fce36b7b00ea8e259822e15557ddfddc1e464", size = 62636, upload-time = "2026-01-06T20:36:04.058Z" },
+    { url = "https://files.pythonhosted.org/packages/b4/39/a15dd88f5bafcee5664dbfee288507e5aa02e2f33f0f3a24aab81c660e97/lxmf-1.2.0-py3-none-any.whl", hash = "sha256:805f053e61082f585efc6d09beffd039fd921174c5e1547a2e690bc479d75b85", size = 69602, upload-time = "2026-09-30T12:58:52.175Z" },
 ]
 
 [[package]]
 name = "nomadnet"
-version = "0.9.8"
+version = "1.4.4"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "lxmf" },
@@ -199,9 +200,9 @@ dependencies = [
     { name = "rns" },
     { name = "urwid" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/d3/8f/143d509ac5f0b536a9c629fc1cd7ce2a8890c2ceece6a18aa664aa3d5cdf/nomadnet-0.9.8.tar.gz", hash = "sha256:ba774662976e6f8b6ee81b841dcb030864bf5304aa58afa831da848b4f5ea39b", size = 510715, upload-time = "2026-01-17T20:41:34.256Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/17/da/80092a61ec75ab5b8be3c32ec174789d0f580b954a554509571e3ac70def/nomadnet-1.4.4.tar.gz", hash = "sha256:7fd433b890755b3187bc440d502f6fd50ec9b59bbf655283dff44d4274cf1b35", size = 606498, upload-time = "2026-09-30T13:17:49.042Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/4a/22/65ae63feaf84039db6ffa5ecfc62f349c0de25598fd66a25dbc17800eab9/nomadnet-0.9.8-py3-none-any.whl", hash = "sha256:e0b867e44b5d5cc820336a522a36b9b7b1766e7be2cbec052375fdf943843d5e", size = 162987, upload-time = "2026-01-17T20:41:28.784Z" },
+    { url = "https://files.pythonhosted.org/packages/b0/fe/f5e8c3be3d4304b2acd85f9010796b4a42ad100e3f2416292f9e795db77e/nomadnet-1.4.4-py3-none-any.whl", hash = "sha256:7d8577e6c1b53e72ac9664382366d5e9163c96a6ccc273d765cae50c50d32e09", size = 336562, upload-time = "2026-09-30T13:17:45.277Z" },
 ]
 
 [[package]]
@@ -236,7 +237,7 @@ wheels = [
 
 [[package]]
 name = "reticulum-stack"
-version = "0.1.0"
+version = "0.1.1"
 source = { virtual = "." }
 dependencies = [
     { name = "lxmf" },
@@ -246,22 +247,22 @@ dependencies = [
 
 [package.metadata]
 requires-dist = [
-    { name = "lxmf", specifier = "==0.9.4" },
-    { name = "nomadnet", specifier = "==0.9.8" },
-    { name = "rns", specifier = "==1.1.8" },
+    { name = "lxmf", specifier = "==1.2.0" },
+    { name = "nomadnet", specifier = "==1.4.4" },
+    { name = "rns", specifier = "==1.5.5" },
 ]
 
 [[package]]
 name = "rns"
-version = "1.1.8"
+version = "1.5.5"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "cryptography" },
     { name = "pyserial" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/4a/c9/4d1012228d8520bbd71c5a29fdfdfb8fb7afc6fb7a661d537e98a0891638/rns-1.1.8.tar.gz", hash = "sha256:306fd27056373193ab1ac10b5006522746b3973b4d6a7832424db4759835e088", size = 392155, upload-time = "2026-04-21T16:55:55.539Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/02/12/9e28be4983a2dc826c2dabc35786cc3ae4bd340973b622ce3c17a0df7451/rns-1.5.5.tar.gz", hash = "sha256:94f2352c7462e2fcf485d5c770eb2b41e666b753906ac3ce0a94e8a0c489a460", size = 559189, upload-time = "2026-09-29T19:58:18.196Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/62/5a/398539bb187189f2c9ae52eb7c851a5358f196b8edb6070940f63801a640/rns-1.1.8-py3-none-any.whl", hash = "sha256:9cf728e9e9a9fe113e4ac14e6b833f7ee65feedf8468e6ab94a261bf205f2632", size = 456256, upload-time = "2026-04-21T16:55:52.463Z" },
+    { url = "https://files.pythonhosted.org/packages/ff/9a/446534401b609dda8236539794cdad7c81701f8e71d707057d34a2ac0bf0/rns-1.5.5-py3-none-any.whl", hash = "sha256:665508974d6d874167edadef59fefadf56faaedf76315847aef4a2af8c75bfab", size = 644185, upload-time = "2026-09-29T19:58:14.804Z" },
 ]
 
 [[package]]

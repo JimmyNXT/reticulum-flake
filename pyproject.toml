@@ -1,12 +1,12 @@
 [project]
 name = "reticulum-stack"
-version = "0.1.0"
+version = "0.1.1"
 description = "Pinned Reticulum/NomadNet stack for NixOS deployment via uv2nix"
 requires-python = ">=3.10"
 dependencies = [
-    "rns==1.1.8",
-    "nomadnet==0.9.8",
-    "lxmf==0.9.4",
+    "rns==1.5.5",
+    "nomadnet==1.4.4",
+    "lxmf==1.2.0",
 ]
 
 # No [build-system] section deliberately - this is a virtual/non-buildable
